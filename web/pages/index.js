@@ -5,7 +5,7 @@ import React, { useEffect, useState } from "react";
 
 export default function Home() {
   const [movies, setMovies] = useState([]);
-  const MOVIES = ["https://bit.ly/3Jb3ae2", "https://bit.ly/3NOj69w"];
+  const MOVIES = ["https://bit.ly/3Jb3ae2", "https://bit.ly/3NOj69w", "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDNkNzgwYzM0YmUwNDYzOGI2MjgwMTc2YTE0MDVjNjY3ZGJjNzM5ZCZjdD1n/Cr7yTbjNuY27C/giphy.gif", "https://media.giphy.com/media/OAKxhhr6WCIcGHZqop/giphy.gif"];
 
   useEffect(() => {
     setMovies(MOVIES);

@@ -53,7 +53,7 @@ function MyApp({ Component, pageProps }) {
       <div>
         <main>
           <nav className="border-b p-6">
-            <p className="text-4xl font-bold">Platzi Movies</p>
+            <p className="text-4xl font-bold"> Gerard Movies </p>
             <div className="flex mt-4">
               <Link href="/">
                 <a className="mr-4">Inicio</a>
